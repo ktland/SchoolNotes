@@ -40,4 +40,13 @@
   - text-based interface to the computer
   - CLI relies primarily on keyboard input
 
-## Chapter 2
+## Chapter 2: Operating Systems
+
+- an *operating system* is software that runs on a computing device and manages the hardware and software components that make up a functional computing system
+- Three major operating systems:
+  - Microsoft Windows
+    - unique in its underlying code
+  - Apple macOS
+    - a fully qualified UNIX distribution based on BSD Unix
+    - complemented with a large amount of proprietary code
+  - Linux
