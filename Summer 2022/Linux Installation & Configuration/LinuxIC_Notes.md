@@ -50,3 +50,19 @@
     - a fully qualified UNIX distribution based on BSD Unix
     - complemented with a large amount of proprietary code
   - Linux
+
+## Chapter 3: Working in Linux
+
+### Navigating the Linux Desktop
+
+- *command line interface (CLI)* is a simple text-based input system for entering anything from single-word commands to complicated scripts
+
+### Applications
+
+- *Kernel* of the OS is like an air traffic controller and *applications* are like the airplanes under its control
+- The kernel decides which program gets which blocks of memory, starts and kills applications, handles displaying text or graphics on a monitor
+- Applications make requests to the kernel and in return receive resources such as:
+  - memory
+  - CPU
+  - disk space
+- If two applications request the same resource, the kernel decides which one gets it
