@@ -50,4 +50,18 @@
   - the **Owncloud** project provides software to store, sync, and share data from private cloud servers
   - the **Nextcloud** project also provides private cloud software
 
-***VIDEO STOPPED @ 4:56***
+##### Desktop Applications
+
+- The Linux ecosystem has a wide variety of desktop applications
+- Email
+  - the **Mozilla Foundation** came out with **Thunderbird**, a full-featured desktop email client that connects to a POP or IMAP server
+  - other notable email clients are **Evolution** and **KMail** which are the GNOME and KDE project's email clients
+- Creative
+  - **Blender**
+    - 3D movie creation
+  - **GIMP (GNU Image Manipulation Program)**
+    - 2D image manipulation
+  - **Audacity** 
+    - audio editing
+- Productivity
+  - **LibreOffice** is a fork of the OpenOffice application suite
