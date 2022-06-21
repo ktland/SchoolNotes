@@ -123,3 +123,18 @@
   - has excellent statistical processing abilities and is a favorite in academia
 - **OpenSSL** a cryptographic library that is used in everything from web servers to the command line
 - **C library** provides a basic set of functions for reading and writing to files and displays, which is used by applications and other languages alike
+
+### Security
+
+- *Cookies* are the primary mechanism that websites use to track you
+  - as you browse the web, a web server can send back the cookie, which is a small piece of text, along with the web page
+  - browsers typically offer cookie-related settings, users can opt to have the browser tell the site not to track
+
+#### Password Issues
+
+- Good password management is essential to security in any computing environment
+- The most privileged user on any Linux system is *root*; this account is the primary *administrator* which is created when the OS is installed
+- There are many levels of access and various means of password management on a Linux system
+  - when *users* are created, they are given different login permissions depending on what *groups* they are assigned to
+  - *services* that run on systems such as databases can also have login permissions with their own passwords and privileges
+  - there are specific passwords for *accessing systems remotely* through SSH, FTP, or other management programs
