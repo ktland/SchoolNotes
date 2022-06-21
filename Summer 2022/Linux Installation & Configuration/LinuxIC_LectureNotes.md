@@ -65,3 +65,18 @@
     - audio editing
 - Productivity
   - **LibreOffice** is a fork of the OpenOffice application suite
+
+##### Console Tools
+
+- UNIX has considerable overlap between the skills of software development and systems administration
+- The tools for managing systems have features of computer languages, such as loops, and are used extensively in **automating systems administration tasks**
+- Therefore, basic familiarity with programming is required for competent sysadmins
+- Shells:
+  - users interact with a Linux system through a *shell*, which accepts commands to execute
+  - Linux offers a variety of shells to choose from such as:
+    - Bourne shell
+    - C shell
+    - Bourne Again (BASH) shell
+    - tcsh
+    - Korn shell (Ksh)
+    - zsh
