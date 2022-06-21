@@ -1,0 +1,53 @@
+# Linux Installation & Configuration Lecture Notes
+
+## Module 3: Working in Linux
+
+### Navigating the Linux Desktop
+
+- To be a Linux sysadmin, it is necessary to be comfortable with Linux as a desktop OS and have proficiency with basic information and communication technology (ICT) skills
+- Sysadmins use Linux to:
+  - manage servers
+  - assist users with configuration issues
+  - recommend new software
+  - update documentation among other tasks
+- After familiarizing oneself with the Linux *Graphical User Interface* (GUI) the next step is learning how to perform tasks from the command line
+
+### Getting to the Command Line
+
+- The *command line interface (CLI)* is a simple text input system for entering anything from single word commands to complicated scripts
+- On systems that boot to a GUI, there are two common ways of accessing the command line: a GUI-based terminal and a virtual terminal
+  - browse to the **Terminal** application from the applications' menu
+  - a virtual terminal can be run at the same time as a GUI but may require the user to log in via the virtual terminal before they can execute commands
+
+### Applications
+
+- The *kernel*:
+  - decides which programs get which blocks of memory
+  - starts and kills *applications*
+  - handles displaying text and graphics on a monitor
+- Applications make requests to the kernel and in turn receive resources such as memory, CPU, and disk space
+- The kernel also handles the switching of applications, a process known as *multitasking*
+- There are a large variety of application types such as:
+  - word processors
+  - web browsers
+  - email clients and more
+- A process is just one task that is loaded and tracked by the kernel
+- An application may even need multiple processes to function, so the kernel takes care of running the processes, starting and stopping them as requested, and handing out system resources
+
+#### Major Applications
+
+- Linux software generally falls into one of three categories:
+  - **Server Applications**: the purpose of this software is to serve information to other computers, called *clients*
+  - **Desktop Applications**: web browsers, text editors, music players, or other applications with which uers interact directly
+  - **Tools**: a loose category of software that exists to make it easier to manage computer systems
+
+##### Server Applications
+
+- Linux excels at running server applications because of its reliability and efficiency
+- One of the early uses of Linux was for *web servers*
+  - a web server hosts content for web pages, which are viewed by a web browser using the **HyperText Transfer Protocol (HTTP)** or its encrypted flavor **HTTPS**
+- There is a growing demand for *private cloud* server software to store, sync, and share data from private cloud servers
+  - the **Owncloud** project provides software to store, sync, and share data from private cloud servers
+  - the **Nextcloud** project also provides private cloud software
+
+***VIDEO STOPPED @ 4:56***
