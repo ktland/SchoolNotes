@@ -92,3 +92,17 @@
 - Packages are compressed files that bundle up an application and it's *dependencies* (required files), greatly simplifying the installation
 - A *package manager* takes care of keeping track of which files belong to which package and even downloading updates from repositories
 - In Linux, there are many different software package management systems, but the two most popular are those from Debian and Red Hat
+- Debian Package Management:
+  - Has software packages that are distributed as files ending in the `.deb` extension
+  - Tools for managing these files include:
+    - `dpkg`
+    - `apt-get`
+    - `aptitude`
+    - Synaptic
+    - Software Center
+- RPM (Red Hat Package Manager) Package Management:
+  - according to the Linux Standards Base, the standard package management system is RPM
+  - RPM makes use of an `.rpm` file for each software package
+  - distros derived from Red Hat, including CentOS and Fedora, use RPM
+  - the backend tool most commonly used for RPM package management is the `rpm` command
+  - tools for managing these files include `yum` and `up2date`
