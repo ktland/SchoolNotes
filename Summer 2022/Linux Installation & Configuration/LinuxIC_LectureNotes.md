@@ -116,3 +116,10 @@
 - C has been extended over the years to **C++** and **Objective C** and other variants
 - the **Java** language uses hypothetical CPU called the **Java Virtual Machine (JVM)** and then compiles all the code to that
 - **JavaScript** is a high-level interpreted programming language that is one of the core technologies on the World Wide Web
+- **Perl** is an interpreted language originally developed to perform text manipulation but has gained favor with sysadmins and is used in everything from automation to building web applications
+- **PHP** was initially built to create dynamic web pages
+- **Ruby** was influenced by Perl and Shell that powers many of the leading automation tools
+- **Python** a scripting language in general use
+  - has excellent statistical processing abilities and is a favorite in academia
+- **OpenSSL** a cryptographic library that is used in everything from web servers to the command line
+- **C library** provides a basic set of functions for reading and writing to files and displays, which is used by applications and other languages alike
