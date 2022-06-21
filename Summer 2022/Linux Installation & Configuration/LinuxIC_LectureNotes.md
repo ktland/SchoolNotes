@@ -138,3 +138,32 @@
   - when *users* are created, they are given different login permissions depending on what *groups* they are assigned to
   - *services* that run on systems such as databases can also have login permissions with their own passwords and privileges
   - there are specific passwords for *accessing systems remotely* through SSH, FTP, or other management programs
+
+### The Cloud
+
+- *Cloud computing* allows computing resources to be moved to remote locations where content can be accessed, manipulated and shared around the globe
+- *Cloud adoption* is the migration of an organization's IT applications and processes to cloud services
+- A cloud can be described as computing resources from one or many off-site data centers which can be accessed over the internet
+- The data and resources that organizations store in the cloud can include:
+  - data
+  - servers
+  - storage
+  - application hosting
+  - analytics
+  - and a myriad of other services
+- A cloud deployment model provides a basis for how cloud infrastructure is built, managed, and accessed
+- 4 primary cloud deployment models:
+  - **Public Cloud**: deployed by a provider to offer cloud services to the general public and organizations over ther internet
+  - **Private Cloud**: set up for the sole use of an organization
+  - **Community Cloud**: set up for the sole use by a group of organizations with common goals or requirements
+  - **Hybrid Cloud**: composed of two or more individual clouds, each of which can be private, community, or public clouds
+
+#### Linux in the Cloud
+
+- **Flexibility**: provides the capability to provision IT resources quickly and at any time
+- **Accessibility**: applications and data reside centrally and are accessed from anywhere over a network from any device
+- **Community Cloud**: consumers can scale IT resources to meet workload demand, thereby eliminating overhead from underutilized resources
+- **Hybrid Cloud**: a significant portion of Linux servers operating in the cloud are created and managed by automated management programs rather than human operators
+  - this process frees up admins to monitor computing operations rather than manually configuring and updating systems
+- **Security**: Linux can help offset security issues because it is one of the most secure and reliable OSs available
+  - Linux is open source meaning its source code can be inspected for vulnerabilities and compatibility issues
