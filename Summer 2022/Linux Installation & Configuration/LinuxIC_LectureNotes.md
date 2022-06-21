@@ -106,3 +106,13 @@
   - distros derived from Red Hat, including CentOS and Fedora, use RPM
   - the backend tool most commonly used for RPM package management is the `rpm` command
   - tools for managing these files include `yum` and `up2date`
+
+### Development Languages
+
+- Languages fall into one of two camps: *interpreted* or *compiled*
+  - an *interpreted language* translates the written code into computer code as the program runs
+  - a *compiled language* is translated all at once
+- Linux was written in a compiled language called **C**
+- C has been extended over the years to **C++** and **Objective C** and other variants
+- the **Java** language uses hypothetical CPU called the **Java Virtual Machine (JVM)** and then compiles all the code to that
+- **JavaScript** is a high-level interpreted programming language that is one of the core technologies on the World Wide Web
