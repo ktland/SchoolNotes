@@ -80,3 +80,15 @@
     - tcsh
     - Korn shell (Ksh)
     - zsh
+- Text editors
+  - most Linux systems provide a choice of text editors which are commonly used at the console to edit configuration files
+  - the two main editors are **Vi** (or the more modern **VIM**) and **Emacs**
+  - **Pico** and **Nano** are available on most systems and provide very basic, yet user friendly text editing
+
+### Package Management
+
+- Every Linux system needs to add, remove, and update software
+- Modern distributions use *packages*
+- Packages are compressed files that bundle up an application and it's *dependencies* (required files), greatly simplifying the installation
+- A *package manager* takes care of keeping track of which files belong to which package and even downloading updates from repositories
+- In Linux, there are many different software package management systems, but the two most popular are those from Debian and Red Hat
