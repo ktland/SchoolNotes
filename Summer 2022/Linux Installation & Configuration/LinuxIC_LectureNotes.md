@@ -217,7 +217,7 @@
 |:--|:--|
 |Attribution (CC-BY)| You can use CC BY content for any use but must credit the copyright holder|
 |Attribution ShareAlike (CC-BY-SA)|Copyleft version of the Attribution license|
-|Attribution No-Derivs (CC-BY-SA|You may redistribute the content under the same conditions as CC-BY but may not change it|
+|Attribution No-Derivs (CC-BY-SA)|You may redistribute the content under the same conditions as CC-BY but may not change it|
 |Attribution-NonCommercial (CC-BY-NC)|Like CC BY, but you may not use it for commercial purposes|
 |Attribution-NonCommercial-ShareAlike (CC-BY-NC-SA)|Requires that your changes be shared under the same license|
 |Attribution-NonCommercial-No-Derivs (CC-BY-NC-ND)|Allows sharing the content to be used for non-commercial purposes, but people may not change the content|
