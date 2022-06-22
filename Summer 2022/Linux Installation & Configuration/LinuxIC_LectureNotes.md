@@ -178,3 +178,37 @@
   - UNIX was created at AT&T Bell Labs in 1969
 - Standards organizations like **IEEE** and **POSIX** ensure that code has the ability to be compatible with other programs and operating systems for collaboration
 - **GNU Project** built tools that are compatible with UNIX, which were used to create Linux and now make Linux a more complete package
+
+### Open Source Licensing
+
+- Purchasing software:
+  - **Ownership**: who owns the intellectual property
+  - **Money transfer**: does it cost anything/how do you pay?
+  - **Licensing**: What do you get? What can you do with the software? How many computers? Can you share it?
+- **End User License Agreement (EULA)** is a legal document you must accept before installing software
+- **GNU General Public License version 2 (GPLv2)** is a license that states the source code must be made available to anyone and that anyone can make changes
+  - changes must be made under the same license
+- **Free and Open Source Software (FOSS)** is software where anyone can view source code, modify it, and redistribute it
+
+### The Free Software Foundation
+
+- The Free Software Foundation and the Open Source Initiative are considered to be the most influential forces in the world of open source
+- Founded in 1985 with the goal of promoting free software
+- Advocates for freedom to share, study, and modify the underlying source code
+- Enforces *copyleft*, the philosophy that if someone modifies free software, they are required to share those changes when they share the modified software
+- Developed their own licenses which are free and are based on GNU General Public License (GPL)
+  - also GPLv2, GPLv3, LGPLv2, and LGPLv3
+
+### The Open Source Initiative
+
+- Licenses without copyleft are called *permissive*
+- **Free and Open Source Software (FOSS)** is a term used to refer to the open source community, which consists of the Free Software and Open Source as a collective (a catch-all term)
+- **Free/Libre/Open Source Software (FLOSS)** uses the term *libre* to define the difference between free from *restrictions* (Libre) and free from *cost* (free)
+
+### Creative Commons
+
+- **Attribution**: must acknowledge the author
+- **ShareAlike**: copyleft
+- **No-Derivs**: you may not change content
+- **NonCommercial**: no commercial use
+- Combinations are allowed, such as Attribution-No-Derivs-NonCommercial
