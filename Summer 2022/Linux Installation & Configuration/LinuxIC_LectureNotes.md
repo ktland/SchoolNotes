@@ -153,7 +153,7 @@
   - and a myriad of other services
 - A cloud deployment model provides a basis for how cloud infrastructure is built, managed, and accessed
 - 4 primary cloud deployment models:
-  - **Public Cloud**: deployed by a provider to offer cloud services to the general public and organizations over ther internet
+  - **Public Cloud**: deployed by a provider to offer cloud services to the general public and organizations over the internet
   - **Private Cloud**: set up for the sole use of an organization
   - **Community Cloud**: set up for the sole use by a group of organizations with common goals or requirements
   - **Hybrid Cloud**: composed of two or more individual clouds, each of which can be private, community, or public clouds
@@ -167,3 +167,14 @@
   - this process frees up admins to monitor computing operations rather than manually configuring and updating systems
 - **Security**: Linux can help offset security issues because it is one of the most secure and reliable OSs available
   - Linux is open source meaning its source code can be inspected for vulnerabilities and compatibility issues
+
+## Module 4: Open Source Software and Licensing
+
+### Open Source Philosophy
+
+- Philosophy that users have the right to obtain the software source code and modify it for their own use
+- Software projects use source code; a human-readable set of computer instructions
+- **UNIX** source code language preceded Linux
+  - UNIX was created at AT&T Bell Labs in 1969
+- Standards organizations like **IEEE** and **POSIX** ensure that code has the ability to be compatible with other programs and operating systems for collaboration
+- **GNU Project** built tools that are compatible with UNIX, which were used to create Linux and now make Linux a more complete package
