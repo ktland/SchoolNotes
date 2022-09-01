@@ -1,3 +1,5 @@
+# This program will print my name with an introduction and state facts about Python in a formatted output.
+
 # Define variables for person's name
 first_name = "kellen"
 last_name = "land"
