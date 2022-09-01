@@ -22,5 +22,13 @@ creator_last_name = "rossum"
 
 
 # print things learned about python using tab and newline escape codes:
-things_learned = f"Things I have learned about Python:\n\n\t Python is a general purpose programming language.\n\t Python was created by {creator_first_name.title()} {creator_middle_name.lower()} {creator_last_name.title()} and released in 1991.\n"
+things_learned = "Things I have learned about Python:\n\t"  
 print(things_learned)
+
+# print string literal saying python is general purpose
+general_purpose = "\tPython is a general purpose programming language."
+print(general_purpose)
+
+# use f string to show Pythons creator
+python_creator = f"\tPython was created by {creator_first_name.title()} {creator_middle_name.lower()} {creator_last_name.title()} and released in 1991.\n"
+print(python_creator)
