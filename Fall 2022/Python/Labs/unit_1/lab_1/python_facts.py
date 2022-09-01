@@ -1,4 +1,7 @@
-# This program will print my name with an introduction and state facts about Python in a formatted output.
+# Program:  python_facts.py
+# Programmer:   Kellen Land
+# Date: 8/31/2022
+# Description:  lab 1
 
 # declare string variable for student’s first name & initialize (lower case)
 first_name = "kellen"
