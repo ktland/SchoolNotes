@@ -25,3 +25,8 @@ print(f'{computer_scientist.title()} wrote the first "{program.title()}" program
 # print blank line 
 print()
 # print the variable five times cascading vertically to left – use title case
+print(f"\t\t\t\t{program.title()}")
+print(f"\t\t\t{program.title()}")
+print(f"\t\t{program.title()}")
+print(f"\t{program.title()}")
+print(program.title())
