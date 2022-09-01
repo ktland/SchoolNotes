@@ -1,14 +1,16 @@
 # This program will print my name with an introduction and state facts about Python in a formatted output.
 
-# Define variables for person's name
+# declare string variable for student’s first name & initialize (lower case)
 first_name = "kellen"
+
+# declare string variable for student’s last name & initialize (lower case)
 last_name = "land"
 
 # Introduce yourself
-introduction_message = f"My name is {first_name.title()} {last_name.title()}\n"
+introduction_message = f"My name is {first_name.title()} {last_name.title()}.\n"
 print(introduction_message)
 
-# Define variable for Python creator's name
+# declare string variable for python’s creator’s full name & initialize (title)
 creator_first_name = "guido"
 creator_middle_name = "Van"
 creator_last_name = "rossum"
