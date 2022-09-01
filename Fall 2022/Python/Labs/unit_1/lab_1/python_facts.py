@@ -3,13 +3,13 @@
 # Date: 8/31/2022
 # Description:  lab 1
 
-# declare string variable for student’s first name & initialize (lower case)
+# declare string variable for student’s first name & initialize
 first_name = "kellen"
 
-# declare string variable for student’s last name & initialize (lower case)
+# declare string variable for student’s last name & initialize
 last_name = "land"
 
-# declare string variable for python’s creator’s full name & initialize (title)
+# declare string variable for python’s creator’s full name & initialize
 python_creator = "Guido van Rossum"
 
 # create formatted string of student’s full name & assign to string variable
