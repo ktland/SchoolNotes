@@ -6,8 +6,10 @@ first_name = "kellen"
 # declare string variable for student’s last name & initialize (lower case)
 last_name = "land"
 
-# Introduce yourself
+# create formatted string of student’s full name & assign to string variable
 introduction_message = f"My name is {first_name.title()} {last_name.title()}.\n"
+
+# pass string variable to print function
 print(introduction_message)
 
 # declare string variable for python’s creator’s full name & initialize (title)
