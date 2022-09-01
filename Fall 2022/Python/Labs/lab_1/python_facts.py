@@ -26,3 +26,6 @@ print("\tPython is a general purpose programming language.")
 
 # use f string to show Pythons creator
 print(f"\tPython was created by {python_creator} and released in 1991.\n")
+
+# use print() to create a new line
+print()
