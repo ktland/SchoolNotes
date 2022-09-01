@@ -7,9 +7,7 @@ first_name = "kellen"
 last_name = "land"
 
 # declare string variable for python’s creator’s full name & initialize (title)
-creator_first_name = "guido"
-creator_middle_name = "Van"
-creator_last_name = "rossum"
+python_creator = "Guido van Rossum"
 
 # create formatted string of student’s full name & assign to string variable
 introduction_message = f"My name is {first_name.title()} {last_name.title()}."
@@ -29,5 +27,5 @@ general_purpose = "\tPython is a general purpose programming language."
 print(general_purpose)
 
 # use f string to show Pythons creator
-python_creator = f"\tPython was created by {creator_first_name.title()} {creator_middle_name.lower()} {creator_last_name.title()} and released in 1991.\n"
-print(python_creator)
+python_creator_text = f"\tPython was created by {python_creator} and released in 1991.\n"
+print(python_creator_text)
