@@ -10,22 +10,19 @@ last_name = "land"
 python_creator = "Guido van Rossum"
 
 # create formatted string of student’s full name & assign to string variable
-introduction_message = f"My name is {first_name.title()} {last_name.title()}."
+message = f"My name is {first_name.title()} {last_name.title()}."
 
 # pass string variable to print function
-print(introduction_message)
+print(message)
 
 # print a blank line using print() or \n
 print()
 
-# print things learned about python using tab and newline escape codes:
-things_learned = "Things I have learned about Python:\n\t"  
-print(things_learned)
+# print things learned about python using tab and newline escape codes:  
+print("Things I have learned about Python:\n\t")
 
 # print string literal saying python is general purpose
-general_purpose = "\tPython is a general purpose programming language."
-print(general_purpose)
+print("\tPython is a general purpose programming language.")
 
 # use f string to show Pythons creator
-python_creator_text = f"\tPython was created by {python_creator} and released in 1991.\n"
-print(python_creator_text)
+print(f"\tPython was created by {python_creator} and released in 1991.\n")
