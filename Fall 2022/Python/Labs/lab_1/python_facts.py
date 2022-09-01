@@ -6,6 +6,11 @@ first_name = "kellen"
 # declare string variable for student’s last name & initialize (lower case)
 last_name = "land"
 
+# declare string variable for python’s creator’s full name & initialize (title)
+creator_first_name = "guido"
+creator_middle_name = "Van"
+creator_last_name = "rossum"
+
 # create formatted string of student’s full name & assign to string variable
 introduction_message = f"My name is {first_name.title()} {last_name.title()}."
 
@@ -14,12 +19,6 @@ print(introduction_message)
 
 # print a blank line using print() or \n
 print()
-
-# declare string variable for python’s creator’s full name & initialize (title)
-creator_first_name = "guido"
-creator_middle_name = "Van"
-creator_last_name = "rossum"
-
 
 # print things learned about python using tab and newline escape codes:
 things_learned = "Things I have learned about Python:\n\t"  
