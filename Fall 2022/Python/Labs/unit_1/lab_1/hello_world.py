@@ -1,4 +1,7 @@
-# Create program that shows "Hello, World!" on screen five times cascading vertically to the right and then gives credit to person who first wrote it and the year it was written. Program then prints “Hello, World!” cascading vertically to left.
+# Program:  hello_world.py
+# Programmer:   Kellen Land
+# Date: 8/31/2022
+# Description:  lab 1
 
 # initialize string variable to hold “hello, world!”
 program = f"hello, world!"
