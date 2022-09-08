@@ -27,7 +27,7 @@ print("Program:  Total Purchase")
 print()
 
 # display a single dash line
-print(28 * "-")
+print(32 * "-")
 
 # print purchased items
 print(f"Item #1 - Pants: \t$ {pants:,.2f}")
@@ -36,9 +36,13 @@ print(f"Item #3 - Shoes: \t$ {shoes:,.2f}")
 print(f"Item #4 - Belt: \t$ {belt:,.2f}")
 
 # display a single dashed line
-print(28 * "-")
+print(32 * "-")
 
 # Print subtotal, sales tax, and grand total
 print(f"Sub Total: \t\t$ {subtotal:,.2f}")
 print(f"Sales Tax: \t\t$  {sales_tax:,.2f}")
 print(f"Grand Total: \t\t$ {grand_total:,.2f}")
+
+# display double dash line
+print(32 * "=")
+print()
