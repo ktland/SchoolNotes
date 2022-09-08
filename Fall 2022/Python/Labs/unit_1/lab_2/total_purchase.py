@@ -8,13 +8,13 @@
 TAX_RATE = 0.06
 
 # initialize numeric variables to hold price of four sales items
-pants = 175
-shirt = 125
-shoes = 300
-belt = 100
+price_pants = 175
+price_shirt = 125
+price_shoes = 300
+price_belt = 100
 
 # calc subtotal
-subtotal = pants + shirt + shoes + belt
+sub_total = pants + shirt + shoes + belt
 
 # calc sales tax
 sales_tax = subtotal * TAX_RATE
@@ -30,16 +30,16 @@ print()
 print(32 * "-")
 
 # print purchased items
-print(f"Item #1 - Pants: \t$ {pants:,.2f}")
-print(f"Item #2 - Shirt: \t$ {shirt:,.2f}")
-print(f"Item #3 - Shoes: \t$ {shoes:,.2f}")
-print(f"Item #4 - Belt: \t$ {belt:,.2f}")
+print(f"Item #1 - Pants: \t$ {price_pants:,.2f}")
+print(f"Item #2 - Shirt: \t$ {price_shirt:,.2f}")
+print(f"Item #3 - Shoes: \t$ {price_shoes:,.2f}")
+print(f"Item #4 - Belt: \t$ {price_belt:,.2f}")
 
 # display a single dashed line
 print(32 * "-")
 
 # Print subtotal, sales tax, and grand total
-print(f"Sub Total: \t\t$ {subtotal:,.2f}")
+print(f"Sub Total: \t\t$ {sub_total:,.2f}")
 print(f"Sales Tax: \t\t$  {sales_tax:,.2f}")
 print(f"Grand Total: \t\t$ {grand_total:,.2f}")
 
