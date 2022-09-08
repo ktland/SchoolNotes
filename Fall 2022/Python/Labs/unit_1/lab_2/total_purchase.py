@@ -14,13 +14,13 @@ price_shoes = 300
 price_belt = 100
 
 # calc subtotal
-sub_total = pants + shirt + shoes + belt
+sub_total = price_pants + price_shirt + price_shoes + price_belt
 
 # calc sales tax
-sales_tax = subtotal * TAX_RATE
+sales_tax = sub_total * TAX_RATE
 
 # calc grand total
-grand_total = subtotal + sales_tax
+grand_total = sub_total + sales_tax
 
 # print program name
 print("Program:  Total Purchase")
