@@ -26,11 +26,19 @@ grand_total = subtotal + sales_tax
 print("Program:  Total Purchase")
 print()
 
-# display single dash line
+# display a single dash line
 print(28 * "-")
 
 # print purchased items
-print(f"Item #1 - Pants: \t${pants:,.2f}")
-print(f"Item #2 - Shirt: \t${shirt:,.2f}")
-print(f"Item #3 - Shoes: \t${shoes:,.2f}")
-print(f"Item #4 - Belt: \t${belt:,.2f}")
+print(f"Item #1 - Pants: \t$ {pants:,.2f}")
+print(f"Item #2 - Shirt: \t$ {shirt:,.2f}")
+print(f"Item #3 - Shoes: \t$ {shoes:,.2f}")
+print(f"Item #4 - Belt: \t$ {belt:,.2f}")
+
+# display a single dashed line
+print(28 * "-")
+
+# Print subtotal, sales tax, and grand total
+print(f"Sub Total: \t\t$ {subtotal:,.2f}")
+print(f"Sales Tax: \t\t$  {sales_tax:,.2f}")
+print(f"Grand Total: \t\t$ {grand_total:,.2f}")
