@@ -14,24 +14,10 @@ print("Report - Southern United States\n")
 print("UNSORTED:\n")
 for state in southern_states:
     print(state.title())
+print()
 
 # use neg index to access last element in list and show it in title case
 print(f"Last state on this unsorted list: {southern_states[-1].title()}\n")
-
-# sort the list using the sort() method and show list again in title case
-southern_states.sort()
-print("SORTED: \n")
-print(f"{southern_states[0].title()}")
-print(f"{southern_states[1].title()}")
-print(f"{southern_states[2].title()}")
-print(f"{southern_states[3].title()}")
-print(f"{southern_states[4].title()}")
-print(f"{southern_states[5].title()}")
-print(f"{southern_states[6].title()}")
-print(f"{southern_states[7].title()}")
-print(f"{southern_states[8].title()}")
-print(f"{southern_states[9].title()}")
-print(f"{southern_states[10].title()}\n")
 
 # show list again using while loop
 print("SORTED: \n")
