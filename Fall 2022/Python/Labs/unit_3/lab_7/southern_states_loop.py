@@ -42,6 +42,9 @@ print(f"{southern_states[8].title()}")
 print(f"{southern_states[9].title()}")
 print(f"{southern_states[10].title()}\n")
 
+# show list again using while loop
+
+
 # use neg index to access last element in list and show it in title case
 print(f"Last state in this ordered list: {southern_states[-1].title()}\n")
 
