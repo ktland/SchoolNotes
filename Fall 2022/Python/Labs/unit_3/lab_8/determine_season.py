@@ -25,4 +25,6 @@ def determine_season(input_temp):
     
     return season
 
-print()
+# print name of program
+print("Program - Determine Season: \n")
+
