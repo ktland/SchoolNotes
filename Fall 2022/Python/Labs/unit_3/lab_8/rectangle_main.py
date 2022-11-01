@@ -4,3 +4,5 @@
 # Description:  Lab 8
 #################################
 
+import rectangle_mod
+
