@@ -4,3 +4,11 @@
 # Description:  Lab 8
 ################################
 
+def find_area(width, length):
+    area = width * length
+    return area
+
+def find_perimeter(width, length):
+    perimeter = 2 * (width + length)
+    return perimeter
+
