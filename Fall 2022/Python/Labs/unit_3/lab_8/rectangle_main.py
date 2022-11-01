@@ -18,3 +18,11 @@ while repeat:
     area = rectangle_mod.find_area(width, length)
     perimeter = rectangle_mod.find_perimeter(width, length)
     
+    print(f"\nThe area is {area:.0f}")
+    print(f"\nThe parimeter is {perimeter:.0f}")
+    
+    again = input("\nWould you like to do another calculation? (y/n) ")
+    if again == 'n':
+        repeat = False
+        
+print("\nThanks for using this program. Goodbye.\n")
