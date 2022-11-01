@@ -28,3 +28,4 @@ def determine_season(input_temp):
 # print name of program
 print("Program - Determine Season: \n")
 
+# set strings for prompts
