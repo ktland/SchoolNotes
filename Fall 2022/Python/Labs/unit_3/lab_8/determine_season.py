@@ -33,4 +33,4 @@ repeat = True
 
 # set strings for prompts
 while repeat:
-    input_temp = input("\n")
+    temp = input("\nEnter the temperature (in Fahrenheit): ")
