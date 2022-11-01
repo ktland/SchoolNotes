@@ -13,4 +13,3 @@ def find_perimeter(width, length):
     """Calculate the perimeter of a rectangle."""
     perimeter = 2 * (width + length)
     return perimeter
-
