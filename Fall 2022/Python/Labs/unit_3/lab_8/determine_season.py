@@ -38,7 +38,7 @@ while repeat:
     
     season = determine_season(input_temp)
     
-    print(f"Based on the temperature of {input_temp}, it is most likely {season.title()}")
+    print(f"Based on the temperature of {input_temp}, it is most likely {season.title()}.")
     
     again = input("\nWould you like to enter another temperature? (y/n) ")
     if again =='n':
