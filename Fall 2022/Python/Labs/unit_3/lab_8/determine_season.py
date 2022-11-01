@@ -31,7 +31,6 @@ print("Program - Determine Season: \n")
 # set repeat flag to True
 repeat = True
 
-# set strings for prompts
 while repeat:
     input_temp = input("\nEnter the temperature (in Fahrenheit): ")
     input_temp = float(input_temp)
