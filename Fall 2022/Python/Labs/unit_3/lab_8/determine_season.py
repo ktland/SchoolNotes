@@ -36,7 +36,9 @@ while repeat:
     input_temp = input("\nEnter the temperature (in Fahrenheit): ")
     input_temp = float(input_temp)
     
-    print(f"Based on the temperature of {input_temp:.0f}, it is most likely {season.title()}")
+    season = determine_season(input_temp)
+    
+    print(f"Based on the temperature of {input_temp}, it is most likely {season.title()}")
     
     again = input("\nWould you like to enter another temperature? (y/n) ")
     if again =='n':
