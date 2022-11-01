@@ -24,3 +24,5 @@ def determine_season(input_temp):
         season = ""
     
     return season
+
+print()
