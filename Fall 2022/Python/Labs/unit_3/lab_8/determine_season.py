@@ -34,3 +34,5 @@ repeat = True
 # set strings for prompts
 while repeat:
     temp = input("\nEnter the temperature (in Fahrenheit): ")
+    temp = float(temp)
+    
