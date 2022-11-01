@@ -28,4 +28,9 @@ def determine_season(input_temp):
 # print name of program
 print("Program - Determine Season: \n")
 
+# set repeat flag to True
+repeat = True
+
 # set strings for prompts
+while repeat:
+    input_temp = input("\n")
