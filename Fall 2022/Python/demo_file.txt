@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Woops. I have deleted the contents!
+=======
+Woops. I have deleted the contents!
+>>>>>>> 30c8177a207d29fe34824e419097be676a566115
