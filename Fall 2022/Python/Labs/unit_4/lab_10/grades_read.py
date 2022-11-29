@@ -4,12 +4,7 @@
 # Description:  Lab #10
 ##############################
 
-filename = 'demo_file.txt'
+filename = 'grades.txt'
 
-f = open(filename, mode = 'w')
-f.write("Woops. I have deleted the contents!\n")
-f.close()
-
-f = open(filename, mode = 'r')
-print(f.read())
-f.close()
+with open(filename, mode = 'r') as grades:
+    print(f"{"ID":<10}{"Name":>10}{"Grade":>10}")
