@@ -11,3 +11,5 @@ with open(filename, mode = 'r') as grades:
     print('==============================')
 for record in grades:
     student_id, name, grade = record.split()
+    print(f"{student_id:<10}{name:<10} {grade:>10}")
+print('=' * 20)
