@@ -32,6 +32,7 @@ print("\nThanks for using this program. Goodbye!")
 
 try:
     amount = input("\nHow many dollars do you wish to borrow? ")
+    amount = float(amount)
     interest_rate = float(input("What is the interest rate? "))
     years = int(input("How many years would you take the loan? "))
 except ValueError:
