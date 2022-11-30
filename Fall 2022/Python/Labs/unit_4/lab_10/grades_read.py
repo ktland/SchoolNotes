@@ -4,7 +4,7 @@
 # Description:  Lab #10
 ##############################
 
-filename = 'gradesX.txt'
+filename = 'grades.txt'
 
 count_grades = 0
 sum_grades = 0
@@ -22,3 +22,13 @@ with open(filename, mode = 'r') as grades:
 
 print(f"Number of Grades: {count_grades}")
 print(f"Average: {sum_grades/count_grades:.2f}")
+
+try:
+
+
+except FileNotFoundError:
+
+except:
+
+else:
+    
