@@ -4,15 +4,10 @@
 # Description:  Lab #10
 ##############################
 
-filename = 'grades.txt'
+filename = 'gradesX.txt'
 
 count_grades = 0
 sum_grades = 0
-
-
-
-print(f"Number of Grades: {count_grades}")
-print(f"Average: {sum_grades/count_grades:.2f}")
 
 try:
     with open(filename, mode = 'r') as grades:
