@@ -12,7 +12,7 @@ repeat = True
 
 # while repeat
 while repeat:
-    '''amount = input("\nHow many dollars do you wish to borrow? ")
+    amount = input("\nHow many dollars do you wish to borrow? ")
     amount = float(amount)
     interest_rate = float(input("What is the interest rate? "))
     years = int(input("How many years would you take the loan? "))
@@ -26,7 +26,7 @@ while repeat:
     
     again = input("\nWould you like to run another calculation? (y/n)")
     if again == 'n':
-        repeat = False'''
+        repeat = False
         
 print("\nThanks for using this program. Goodbye!")
 
