@@ -4,7 +4,7 @@
 # Description:  Lab #10
 ##############################
 
-filename = 'gradesX.txt'
+filename = 'grades.txt'
 
 count_grades = 0
 sum_grades = 0
