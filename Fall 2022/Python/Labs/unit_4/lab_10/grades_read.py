@@ -12,9 +12,13 @@ sum_grades = 0
 with open(filename, mode = 'r') as grades:
     print(f'{"ID":<10}{"Name":<10}{"Grade":>10}')
     print('==============================')
-for record in grades:
-    student_id, name, grade = record.split()
-    grade = int(grade)
-    print(f"{student_id:<10}{name:<10}{grade:>10}")
-    count_grades = count_grades 
-print('=' * 30)
+    for record in grades:
+        student_id, name, grade = record.split()
+        grade = int(grade)
+        print(f"{student_id:<10}{name:<10}{grade:>10}")
+        count_grades = count_grades + 1
+        sum_grades = sum_grades + grade
+    print('=' * 30)
+
+print(f"Number of Grades: {count_grades}")
+print(f"Average: {}")
