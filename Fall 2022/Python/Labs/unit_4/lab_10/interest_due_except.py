@@ -31,4 +31,10 @@ while repeat:
 print("\nThanks for using this program. Goodbye!"
 
 try:
-    amount = float(input())
+    amount = input("\nHow many dollars do you wish to borrow? ")
+    interest_rate = float(input("What is the interest rate? "))
+    years = int(input("How many years would you take the loan? "))
+except ValueError:
+    print("Input Error >>> Please enter numbers only. You will have to start again.")
+except:
+    print("An error has occured.")
