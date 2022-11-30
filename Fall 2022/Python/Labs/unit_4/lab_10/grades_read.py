@@ -6,10 +6,15 @@
 
 filename = 'grades.txt'
 
+count_grades = 0
+sum_grades = 0
+
 with open(filename, mode = 'r') as grades:
     print(f'{"ID":<10}{"Name":<10}{"Grade":>10}')
     print('==============================')
 for record in grades:
     student_id, name, grade = record.split()
-    print(f"{student_id:<10}{name:<10} {grade:>10}")
+    grade = int(grade)
+    print(f"{student_id:<10}{name:<10}{grade:>10}")
+    count_grades = count_grades 
 print('=' * 30)
